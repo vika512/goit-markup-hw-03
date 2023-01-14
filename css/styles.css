@@ -68,7 +68,7 @@ body {
 }
 
 .padding-top {
-    pd: 120px;
+    padding-top: 120px;
 }
 
 .padding-bottom {
@@ -87,6 +87,8 @@ body {
 .page-header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-nav {
@@ -96,8 +98,6 @@ body {
 .menu-list {
     display: flex;
     align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 
 .menu-item:not(:last-child) {
@@ -113,14 +113,10 @@ body {
 .address-list {
     display: flex;
     align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 
 .logo {
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -176,11 +172,12 @@ body {
 
 .hero {
     background-color: var(--primary-text-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
-    padding-top: 188px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 
     font-size: 56px;
     line-height: 1.07;
@@ -228,11 +225,14 @@ body {
     margin: -1px;
 }
 
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-list {
     display: flex;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -248,10 +248,13 @@ body {
 
 /* =================== SERVICES =================== */
 
+.services {
+    padding-bottom: 120px;
+}
+
 .services-list {
     display: flex;
     align-items: center;
-    padding-bottom: 120px;
     margin-bottom: 0;
     margin-top: 0;
     gap: 24px;
@@ -278,10 +281,11 @@ body {
 
 .team {
     background-color: var(--light-background-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
-    padding-top: 120px;
     margin-bottom: 72px;
 
     font-size: 36px;
@@ -296,7 +300,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 120px;
 }
 
 .team-item:not(:nth-child(4n)) {
@@ -324,9 +327,10 @@ body {
 
 .page-footer {
     background-color: var(--primary-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .container.footer-container {
-    padding-top: 100px;
     /* margin-bottom: 16px; */
 }
 
@@ -340,8 +344,7 @@ body {
 
 .footer-description {
     width: 264px;
-    padding-top: 16px;
-    padding-bottom: 100px;
+    margin-top: 16px;
 
     letter-spacing: 0.02em;
     color: #E7E9FC;
@@ -351,11 +354,15 @@ body {
 
 /* ====== Filter buttons ======= */
 
+.filters {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filter-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 96px;
 }
 
 .filter-item:not(:last-child) {
@@ -395,7 +402,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 72px;
-    padding-bottom: 100px;
 }
 
 .work-item:not(:nth-child(3n)) {

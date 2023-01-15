@@ -82,13 +82,13 @@ body {
 .page-header {
     background-color: var(--dark-background-text);
     border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-nav {
@@ -116,14 +116,16 @@ body {
 }
 
 .logo {
-    margin-right: 76px;
-
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.margin-logo {
+    margin-right: 76px;
 }
 
 .logo-first {
@@ -232,8 +234,13 @@ body {
 
 .features-list {
     display: flex;
-    align-items: center;
-    gap: 24px;
+    flex-wrap: wrap;
+    margin-left: -24px;
+}
+
+.features-item {
+    flex-basis: calc( 100% / 4 - 24px );
+    margin-left: 24px;
 }
 
 .feature-name {
@@ -314,6 +321,7 @@ body {
 
 
 .team-name {
+    margin-bottom: 8px;
     text-align: center;
     color: var(--primary-text-color);
 }
@@ -329,9 +337,6 @@ body {
     background-color: var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
-}
-.container.footer-container {
-    /* margin-bottom: 16px; */
 }
 
 .footer-logo-first {
